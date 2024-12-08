@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>State Capital Finder</title>
+</head>
+<body>
+    <h1>Select a State to Get Its Capital</h1>
+    <form method="POST" action="getCapital.php">
+        <label for="state">State:</label>
+        <select id="state" name="state">
+            <option value="California">California</option>
+            <option value="Texas">Texas</option>
+            <option value="Florida">Florida</option>
+            <option value="New York">New York</option>
+            <option value="Illinois">Illinois</option>
+            <option value="Pennsylvania">Pennsylvania</option>
+            <option value="Ohio">Ohio</option>
+            <option value="Georgia">Georgia</option>
+            <option value="North Carolina">North Carolina</option>
+            <option value="Michigan">Michigan</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+    <p id="result"></p>
+</body>
+</html>
